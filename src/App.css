@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+.rm-slidebarmenu {
+  width: 280px;
+  background-color: #41179d;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+body {
+  padding-left: 280px;
+  background-color: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.rm-profile {
+  text-align: center;
+  padding: 25px;
+}
+
+.rm-profile .profile-pic {
+  height: 90px;
+  width: 90px;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.rm-profile .profile-pic img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.rm-profile h5 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.rm-profile h6 {
+  color: #a0a0a0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.rm-profile p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #a0a0a0;
+}
+
+.rm-profile ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.rm-profile ul li a {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px 25px;
+  font-size: 12px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.rm-profile ul li a.conn {
+  background-color: #bfbfbf;
+  border-color: #bfbfbf;
+}
+
+.rm-todo-app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.rm-todo-app h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.rm-todo-app .rm-to-list {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.rm-todo-app .rm-to-list li {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #41179d;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.rm-menu-list {
+  border-top: 1px solid #bfbfbf;
+  padding-top: 25px;
+}
+
+.rm-menu-list ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.rm-menu-list ul li a {
+  display: block;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 15px 25px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.rm-menu-list ul li.active a {
+  background-color: #ffffff;
+  color: #41179d;
+}
+
+.paralex1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.paralex1 img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.paralex1 .scroll_down {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000;
+}
+
+.paralex1 .scroll_down h1 {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.ss1 {
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=App.css.map */
